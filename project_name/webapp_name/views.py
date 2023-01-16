@@ -9,9 +9,6 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect
 
 # Create your views here.
-def index(request):
-    print("This is index page")
-
 def sign_in(request):
     flow = get_sign_in_flow() # Get the sign-in flow
     # Save the expected flow so we can use it in the callback
