@@ -17,6 +17,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [   
+    path('index', views.index, name='index'),    
     path('signin', views.sign_in, name='signin'),
     path('callback', views.callback, name='callback'),
     path('signout', views.sign_out, name='signout'),
