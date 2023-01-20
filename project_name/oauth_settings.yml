@@ -1,5 +1,5 @@
-app_id: "8d5ef653-3f1b-4a0a-8baa-12ccd13758dc"
-app_secret: "3Ia8Q~feriUj_NRPrgcw36TRyPTg8X-s.FKSXc5w"
+app_id: "6f410ce3-b599-454b-a1df-f3c85618af78"
+app_secret: "b8e8Q~zsEeuNJK-KWyioQclj3Dva9gp18gmvrb1O"
 redirect: "http://localhost:8000/callback"
 scopes:
   - user.read
@@ -7,4 +7,4 @@ scopes:
   - calendars.readwrite
   - mailboxsettings.read
   - calendars.readwrite
-authority: https://login.microsoftonline.com/common
+authority: https://login.microsoftonline.com/2bb33bf9-779c-4688-a135-340354a30fbe
