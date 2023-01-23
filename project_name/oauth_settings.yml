@@ -1,5 +1,5 @@
-app_id: "186a4da8-dbaf-40f2-a194-1eedcdd03b18"
-app_secret: "1Td8Q~6yaGsyw71nqV0qkNXKorrZjCroWI8lDdzt"
+app_id: "YOUR_APPLICATION_ID"
+app_secret: "YOUR_APPLICATION_SECRET"
 redirect: "http://localhost:8000/callback"
 scopes:
   - user.read
@@ -7,4 +7,4 @@ scopes:
   - calendars.readwrite
   - mailboxsettings.read
   - calendars.readwrite
-authority:  https://login.microsoftonline.com/aa4c2eaa-4503-4c9c-ad15-273ab601f806
+authority:  https://login.microsoftonline.com/YOUR_TENANT_ID
