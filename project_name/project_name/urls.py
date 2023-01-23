@@ -19,7 +19,6 @@ from webapp_name import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('webapp_name/', include('webapp_name.urls')),
     path('signin', views.sign_in, name='signin'),
     path('callback', views.callback, name='callback'),
     path('signout', views.sign_out, name='signout'),
